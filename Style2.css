@@ -5,19 +5,16 @@ html, html * {
 	box-sizing: content-box;
 	font-family: Gotham, Helvetica Neue, Helvetica, Arial, " sans-serif";
 	color: black;
-}
-
-body{
-	text-align: center;
+    text-align: center;
 }
 
 header {
-    text-align: center;
 	font-size: 50px;
+	max-width: 270px;
+	margin:auto;
 }
 
 h1 {
-	text-align: center;
 	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 200;
@@ -38,10 +35,11 @@ p {
 }
 
 img {
-	display: inline-block;
-	width: 200px;
+	width: 150px;
 	height: auto;
 	box-shadow: 4px 4px 10px;
+	float: right;
+	margin-right: 20%
 }
 
 ol {
@@ -91,12 +89,13 @@ ol li{
 .corps{
 	display: inline-block;
 	margin: auto;
+	margin-top:0;
 	max-width: 25%
 }
 
 .expe{
 	margin: auto;
-	padding: 2%;
+	padding: 3%;
 }
 
 .Progress-Bar{
@@ -127,7 +126,15 @@ ol li{
 	text-decoration-color: black;
 }
 
-.header{
-	display: inline;
-	max-width: 50%
+.flex-container{
+	display: flex;
+	float: left;
+	justify-content: center;
+	margin-top: 5%;
+}
+
+.moto{
+	font-style: italic;
+	max-width: 400px;
+	margin-left:34%
 }
